@@ -1,14 +1,14 @@
 <resources>
-    <string name="app_name">Calculadora IMC</string>
-    <string name="weight_hint">Ex: 58</string>
-    <string name="height_hint">Ex: 1,74</string>
-    <string name="calculate_button">Calcular</string>
-    <string name="peso">Peso</string>
-    <string name="title">CALCULADORA IMC</string>
-    <string name="height">Altura</string>
-    <string name="height_unit">m</string>
-    <string name="weight_unit">kg</string>
-    <string name="bmi_you_are">Você está</string>
-    <string name="bmi_you_ideal_weight_title">Seu peso ideal é entre</string>
-    <string name="bmi_unit">kg/m²</string>
+    <string name="app_name">BMI Calculator</string>
+    <string name="weight_hint">E.g 58</string>
+    <string name="height_hint">E.g 1,74</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="weight">Weight</string>
+    <string name="title">BMI CALCULATOR</string>
+    <string name="height">Height</string>
+    <string name="height_unit" translatable="false">m</string>
+    <string name="weight_unit" translatable="false">kg</string>
+    <string name="bmi_you_are">You are</string>
+    <string name="bmi_you_ideal_weight_title">Your ideal weight is between</string>
+    <string name="bmi_unit" translatable="false">kg/m²</string>
 </resources>

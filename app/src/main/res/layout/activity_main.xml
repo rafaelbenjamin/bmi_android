@@ -29,7 +29,7 @@
         style="@style/imc_text_style"
         android:layout_width="61dp"
         android:layout_height="21dp"
-        android:text="@string/peso"
+        android:text="@string/weight"
         app:layout_constraintBaseline_toBaselineOf="@+id/text_weight"
         app:layout_constraintEnd_toStartOf="@+id/text_weight"
         app:layout_constraintStart_toStartOf="parent" />
