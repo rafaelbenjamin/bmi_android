@@ -1,12 +1,9 @@
-package com.benjamin.imcapplication
+package com.benjamin.bmiapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main.view.*
-import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
 

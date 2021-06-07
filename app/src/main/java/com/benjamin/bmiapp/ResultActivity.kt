@@ -1,4 +1,4 @@
-package com.benjamin.imcapplication
+package com.benjamin.bmiapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

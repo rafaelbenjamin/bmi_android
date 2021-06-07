@@ -1,4 +1,4 @@
-package com.benjamin.imcapplication
+package com.benjamin.bmiapp
 
 import org.junit.Test
 
