@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setListeners() {
         btn_calculate.setOnClickListener {
-            val weight = text_weight.text.toString()
+            val weight = text_weight.text.toString().replace(",", ".")
             val height = text_height.text.toString().replace(",", ".")
             calculateBMI(weight, height)
         }
@@ -31,16 +31,28 @@ class MainActivity : AppCompatActivity() {
 
         if (weight != null && height != null) {
 
-            var imc = weight / (height + height)
+            var bmi = weight / (height * height)
 
             text_result.visibility = View.VISIBLE
             text_bmi_category.visibility = View.VISIBLE
+            text_bmi_unit.visibility = View.VISIBLE
 
-            if (imc.isNaN()) imc = 0F
+            if (bmi.isNaN()) bmi = 0F
+            if (bmi.isInfinite()) bmi = 0F
 
-            text_result.text = "%.2f".format(imc)
+            if (bmi != 0F ) {
+                var idealWeight1 = 18.5 * (height * height)
+                var idealWeight2 = 24.9 * (height * height)
 
-            when (imc) {
+                text_bmi_you_are.visibility = View.VISIBLE
+                text_bmi_your_ideal_weight_is.visibility = View.VISIBLE
+                text_ideal_weight_result.visibility = View.VISIBLE
+                text_ideal_weight_result.text = "%.0f".format(idealWeight1) + " kg a " + "%.0f".format(idealWeight2) + " kg"
+            }
+
+            text_result.text = "%.2f".format(bmi)
+
+            when (bmi) {
                 in 0.0..18.4 -> text_bmi_category.text = "Magreza"
                 in 18.5..24.9 -> text_bmi_category.text = "Saudável"
                 in 25.0..29.9 -> text_bmi_category.text = "Sobrepreso"
