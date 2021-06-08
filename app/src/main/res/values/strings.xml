@@ -1,14 +1,20 @@
 <resources>
     <string name="app_name">BMI Calculator</string>
-    <string name="weight_hint">E.g 58</string>
-    <string name="height_hint">E.g 1,74</string>
+    <string name="weight_hint">E.g 68</string>
+    <string name="height_hint">E.g 174</string>
     <string name="calculate_button">Calculate</string>
     <string name="weight">Weight</string>
     <string name="title">BMI CALCULATOR</string>
     <string name="height">Height</string>
-    <string name="height_unit" translatable="false">m</string>
+    <string name="height_unit" translatable="false">cm</string>
     <string name="weight_unit" translatable="false">kg</string>
-    <string name="bmi_you_are">You are</string>
+    <string name="bmi_category">Category</string>
     <string name="bmi_you_ideal_weight_title">Your ideal weight is between</string>
     <string name="bmi_unit" translatable="false">kg/m²</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obesity_class_one">Obesity class 1</string>
+    <string name="obesity_class_two">Obesity class 2</string>
+    <string name="obesity_class_three">Obesity class 3</string>
 </resources>

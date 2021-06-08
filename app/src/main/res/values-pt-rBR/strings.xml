@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Calculadora IMC</string>
-    <string name="weight_hint">Ex: 58</string>
-    <string name="height_hint">Ex: 1,74</string>
+    <string name="weight_hint">Ex: 68</string>
+    <string name="height_hint">Ex: 174</string>
     <string name="calculate_button">Calcular</string>
     <string name="weight">Peso</string>
     <string name="title">CALCULADORA IMC</string>
     <string name="height">Altura</string>
-    <string name="bmi_you_are">Você está</string>
+    <string name="bmi_category">Categoria</string>
     <string name="bmi_you_ideal_weight_title">Seu peso ideal é entre</string>
+    <string name="underweight">Magreza</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Sobrepeso</string>
+    <string name="obesity_class_one">Obesidade grau 1</string>
+    <string name="obesity_class_two">Obesidade grau 2</string>
+    <string name="obesity_class_three">Obesidade grau 3</string>
 </resources>
